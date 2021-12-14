@@ -1,0 +1,17 @@
+{
+    "name": "06-webserver",
+    "version": "0.0.1",
+    "description": "Web Server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "David Acurero",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "hbs": "^4.2.0"
+    }
+}
